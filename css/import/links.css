@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Mulish";
+  font-size: 13px;
+  color: #fff;
+}
+
+.cta {
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, #feb692, #ea5455);
+  padding: 15px 30px;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
