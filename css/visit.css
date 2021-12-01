@@ -29,27 +29,3 @@ p {
   gap: 30px;
   margin-bottom: 30px;
 }
-
-.white-card {
-  width: 100%;
-  height: fit-content;
-  background-color: #fff;
-  box-shadow: 5px 5px 20px #e4e4e4;
-}
-
-.white-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.white-card h3 {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.white-card p {
-  padding-left: 20px;
-  padding-right: 20px;
-}

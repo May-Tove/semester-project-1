@@ -1,25 +1,20 @@
-/* Header */
-
 .header-hero h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.exhibition-intro {
+  padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.header-hero h2 {
-  color: #fff;
-  text-transform: capitalize;
+.exhibition-intro h2 {
+  text-transform: unset;
   text-align: left;
-  padding: 10px 20px 0px 20px;
 }
 
-.header-hero p {
-  color: #fff;
-  padding: 10px 20px 0px 20px;
-}
-
-/* Special Events */
-
-.events {
+.exhibitions {
   margin-top: 50px;
   display: flex;
   flex-direction: column;

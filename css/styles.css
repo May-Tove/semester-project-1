@@ -1,4 +1,5 @@
 @import "import/links.css";
+@import "import/cards.css";
 
 * {
   margin: 0;
@@ -7,19 +8,25 @@
 
 body {
   font-family: "Libre Franklin", sans-serif;
+  font-size: 13px;
+  line-height: 22px;
   background: #f7f7f7;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Mulish";
+}
+
+h1 {
   font-style: italic;
   text-transform: uppercase;
-  padding-top: 30px;
+  padding-top: 110px;
   color: #fff;
 }
 
 h2 {
-  font-family: "Mulish";
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
@@ -27,21 +34,15 @@ h2 {
 }
 
 h3 {
-  font-family: "Mulish";
   font-weight: 700;
   font-size: 19px;
-}
-
-p {
-  font-family: "Libre Franklin";
-  font-size: 13px;
-  line-height: 22px;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: fixed;
   height: 80px;
   width: 100%;
   background-color: #021428;
@@ -52,6 +53,7 @@ header {
   max-width: 40px;
 }
 
+/* Search form */
 .search-box {
   display: flex;
   align-items: center;
@@ -77,42 +79,61 @@ header {
   width: 170px;
 }
 
-.main-menu {
-  display: none;
-  position: absolute;
-  margin-top: 470px;
-  width: 100%;
-  z-index: 1000;
-  background: #021428;
-  text-transform: uppercase;
-}
-
-.main-menu li {
-  display: block;
-  padding: 30px;
-}
-
-#hamburger-menu {
-  display: none;
-}
-
-.hamburger:hover {
+/* Menu */
+.menu-wrap .toggler {
   cursor: pointer;
 }
 
-#hamburger-menu:checked ~ nav {
+.toggler:checked ~ .main-menu {
   display: block;
 }
 
+.menu-wrap .toggler:checked ~ .main-menu > div {
+  transform: scale(1);
+  transition-duration: 0.75s;
+}
+
+.menu-wrap .toggler:checked ~ .main-menu > div > nav {
+  opacity: 1;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+.menu-wrap .main-menu {
+  position: fixed;
+  margin-top: 15px;
+  left: 0;
+  width: 100%;
+}
+
+.menu-wrap .main-menu > div {
+  background: #021428;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: all 0.4s ease;
+}
+
+.menu-wrap .main-menu > div > nav {
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .main-menu > div > nav > ul > li {
+  font-size: 14px;
+  padding: 15px;
+}
+
+/* Header image */
 .header-hero {
   background-image: url(../images/stars.jpg);
   background-position: center;
   background-size: cover;
-  height: fit-content;
 }
 
 /* Footer */
-
 footer {
   display: flex;
   flex-direction: column;
