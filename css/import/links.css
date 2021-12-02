@@ -2,8 +2,18 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Mulish";
+  font-weight: bold;
   font-size: 13px;
   color: #fff;
+}
+
+.active {
+  color: violet;
+}
+
+.main-menu a {
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
 }
 
 .cta {

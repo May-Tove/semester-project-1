@@ -1,16 +1,10 @@
 /* Header */
-.welcome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.welcome p {
-  text-align: center;
+.header-hero {
+  height: 370px;
 }
 
 .header-hero h1 {
+  text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -18,12 +12,14 @@
 .header-hero h2 {
   color: #fff;
   text-transform: capitalize;
+  text-align: left;
   padding: 10px 20px 0px 20px;
 }
 
 .header-hero p {
   color: #fff;
   padding: 10px 20px 0px 20px;
+  max-width: 300px;
 }
 
 /* Special Events */
@@ -31,6 +27,8 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
   padding-left: 20px;
   padding-right: 20px;

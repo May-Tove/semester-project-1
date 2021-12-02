@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community Science Museum / Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Mulish:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Mulish:ital,wght@0,400;0,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/Logo-mobile.svg" alt="Museum logo"></a>
+          <a href="index.html"
+            ><img src="images/Logo-mobile.svg" alt="Museum logo"
+          /></a>
         </div>
         <div class="search-box">
-            <input class="search-text" type="text" name="" placeholder="Search">
-            <a class="search-button" href="#"><img src="images/search-icon.svg" alt="search icon"></a>
+          <input class="search-text" type="text" name="" placeholder="Search" />
+          <a class="search-button" href="#"
+            ><img src="images/search-icon.svg" alt="search icon"
+          /></a>
         </div>
-        <div class="menu-wrap">
-            <label for="hamburger-menu" class="hamburger"><img src="images/menu-icon.svg" alt="menu icon"></label>
-            <input type="checkbox" class="toggler">
-            <div class="main-menu">
-                <div>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="visit.html">Visit us</a></li>
-                            <li><a href="exhibition.html">Exhibitions</a></li>
-                            <li><a href="involve.html">Get involved</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+      <div class="menu-wrap">
+          <label for="toggler" class="toggler-lable"><img src="images/menu-icon.svg" alt="menu icon" /></label>
+          <input type="checkbox" id="toggler" class="toggler" />
+          <div class="main-menu">
+              <nav>
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="visit.html">Visit us</a></li>
+                      <li><a href="exhibition.html">Exhibitions</a></li>
+                      <li><a href="involve.html">Get involved</a></li>
+                      <li><a href="contact.html" class="active">Contact us</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+      </header>
     <main>
-        <section class="header-hero">
-            <h1>Contact us</h1>
-        </section>
-        <form method="post">
-            <div class="contact-form">
-                <section>
-                    <h2>Send us a message:</h2>
-                    <div>
-                        <label for="subject">Select Subject</label>
-                        <select name="subjects" id="subjects">
-                            <option value="explore for kids">Explore for kids</option>
-                            <option value="explore for teachers">Explore for teachers</option>
-                            <option value="support">Support</option>
-                            <option value="volunteer">Volunteer</option>
-                            <option value="internships">Internships</option>
-                            <option value="researchers">Reasearchers</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                        <label for="full-name">Full Name</label>
-                        <input type="text" id="full-name" name="full-name">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
-                </section>
-                <section class="message-box">
-                    <label for="message">Message</label>
-                    <textarea name="Message" id="message"></textarea>
-                    <input type="submit" value="Submit" id="submit" class="cta">
-                </section>
+      <section class="header-hero">
+        <h1>Contact us</h1>
+      </section>
+      <form method="post">
+        <div class="contact-form">
+          <section>
+            <h2>Send us a message:</h2>
+            <div>
+              <label for="subject">Select Subject</label>
+              <select name="subjects" id="subjects">
+                <option value="explore for kids">Explore for kids</option>
+                <option value="explore for teachers">
+                  Explore for teachers
+                </option>
+                <option value="support">Support</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="internships">Internships</option>
+                <option value="researchers">Reasearchers</option>
+                <option value="other">Other</option>
+              </select>
             </div>
-        </form>
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" />
+          </section>
+          <section class="message-box">
+            <label for="message">Message</label>
+            <textarea name="Message" id="message"></textarea>
+            <input type="submit" value="Submit" id="submit" class="cta" />
+          </section>
+        </div>
+      </form>
     </main>
     <footer>
-        <h4>Community Science Museum</h4>
-        &copy; Copyright 2021 by Community Science Museum
+      <h4>Community Science Museum</h4>
+      &copy; Copyright 2021 by Community Science Museum
     </footer>
-</body>
+  </body>
 </html>

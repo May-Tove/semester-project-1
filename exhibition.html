@@ -1,114 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community Science Museum / Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Mulish:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/exhibition.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Mulish:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/exhibition.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/Logo-mobile.svg" alt="Museum logo"></a>
+          <a href="index.html"
+            ><img src="images/Logo-mobile.svg" alt="Museum logo"
+          /></a>
         </div>
         <div class="search-box">
-            <input class="search-text" type="text" name="" placeholder="Search">
-            <a class="search-button" href="#"><img src="images/search-icon.svg" alt="search icon"></a>
+          <input class="search-text" type="text" name="" placeholder="Search" />
+          <a class="search-button" href="#"
+            ><img src="images/search-icon.svg" alt="search icon"
+          /></a>
         </div>
-        <div class="menu-wrap">
-            <label for="hamburger-menu" class="hamburger"><img src="images/menu-icon.svg" alt="menu icon"></label>
-            <input type="checkbox" class="toggler">
-            <div class="main-menu">
-                <div>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="visit.html">Visit us</a></li>
-                            <li><a href="exhibition.html">Exhibitions</a></li>
-                            <li><a href="involve.html">Get involved</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+      <div class="menu-wrap">
+          <label for="toggler" class="toggler-lable"><img src="images/menu-icon.svg" alt="menu icon" /></label>
+          <input type="checkbox" id="toggler" class="toggler" />
+          <div class="main-menu">
+              <nav>
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="visit.html">Visit us</a></li>
+                      <li><a href="exhibition.html" class="active">Exhibitions</a></li>
+                      <li><a href="involve.html">Get involved</a></li>
+                      <li><a href="contact.html">Contact us</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+      </header>
     <main>
-        <section class="header-hero">
-            <h1>Exhibition spaces</h1>
-        </section>
-        <section class="exhibition-intro">
-            <h2>
-                Here at Community Science Museum, you can learn through interactive exhibitions.
-            </h2>
-            <p>
-                We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
-            </p>
-        </section>
-        <section class="exhibitions">
-            <h2>Exhibitions</h2>
-                <div class="exhibition-card exhibition-card-1">
-                <img src="images/telescope.jpg" alt="Telescope pointing to the sky">
-                <h3>Cosmology</h3>
-                <p>
-                    Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
-                </p>
-                <p>
-                    Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.
-                </p>
-            </div>
-            <div class="exhibition-card exhibition-card-2">
-                <img src="images/mammoth.jpg" alt="Mammoth skeleton">
-                <h3>Evolution</h3>
-                <p>
-                    For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.
-                </p>
-                <p>
-                    Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.
-                </p>
-            </div>
-            <div class="exhibition-card exhibition-card-3">
-                <img src="images/biology.jpg" alt="Sculpture of human anatomi">
-                <h3>Biology and Medicine</h3>
-                <p>
-                    From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. 
-                </p>
-                <p>
-                    For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant. 
-                </p>
-                <p>
-                    Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.
-                </p>
-            </div>
-            <div class="exhibition-card exhibition-card-4">
-                <img src="images/windmill.jpg" alt="Windmills on top of a mountain">
-                <h3>Ecology</h3>
-                <p>
-                    As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.
-                </p>
-                <p>
-                    In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future.
-                </p>
-            </div>
-            <div class="exhibition-card exhibition-card-5">
-                <img src="images/robot.jpg" alt="Girl shaking hands with Rob the robot">
-                <h3>Robotics and AI</h3>
-                <p>
-                    The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.
-                </p>
-            </div>
-        </section>
-        <a href="visit.html" class="cta">Visit us</a>
+      <section class="header-hero">
+        <h1>Exhibition spaces</h1>
+      </section>
+      <section class="exhibition-intro">
+        <h2>
+          Here at Community Science Museum, you can learn through interactive
+          exhibitions.
+        </h2>
+        <p>
+          We believe science should not be confined to the textbook, but brought
+          to live through exhibits. This is why we have over 1000 different
+          exhibits on the many varied subjects of science to explore. Many of
+          these exhibits are designed for you to interact with and play around
+          to see science come to life (apart from the dinosaur exhibits – they
+          only come to life at night when everyone’s gone home).
+        </p>
+      </section>
+      <section class="exhibitions">
+        <h2>Exhibitions</h2>
+        <div class="exhibition-card exhibition-card-1">
+          <img src="images/telescope.jpg" alt="Telescope pointing to the sky" />
+          <h3>Cosmology</h3>
+          <p>
+            Explore the wonders of our cosmos. Our fantastic exhibition, ‘The
+            Sky Above Us’, explores the night sky and what we can see and know
+            about the universe around us. We’ll locate the various
+            constellations and galaxies that can be seen and learn a bit about
+            the early navigators who used the stars to travel by.
+          </p>
+          <p>
+            Follow the journey of our solar exploration: from early Arab
+            traders, to Galileo’s telescope, to the latest exploration of the
+            planets in our solar system.
+          </p>
+        </div>
+        <div class="exhibition-card exhibition-card-2">
+          <img src="images/mammoth.jpg" alt="Mammoth skeleton" />
+          <h3>Evolution</h3>
+          <p>
+            For centuries, philosophers and scientists have wrestled with the
+            question of our origins. Where do we come from and how did we get
+            here? Since Darwin proposed his theory of evolution we have had a
+            framework for exploring and understanding our place in this world.
+          </p>
+          <p>
+            Discover the origins of life on this planet and how the species we
+            know today have evolved our time. You can also take some time to
+            meet a few of the creatures who didn’t survive, including our Woolly
+            Mammoth, the Dodos, and a number of dinosaurs too.
+          </p>
+        </div>
+        <div class="exhibition-card exhibition-card-3">
+          <img src="images/biology.jpg" alt="Sculpture of human anatomi" />
+          <h3>Biology and Medicine</h3>
+          <p>
+            From micro-organisms to the human body, major breakthroughs in
+            biology are offering us unique insights into the great wonders of
+            the tiny world.
+          </p>
+          <p>
+            For many people their life expectancy is much longer and their
+            quality of life much improved, thanks to the growth of our
+            understanding of medicine. Over a series of exhibits we explore the
+            history of medicine and take a look at some major breakthroughs
+            including the discovery of penicillin and the first heart
+            transplant.
+          </p>
+          <p>
+            Many of our great medicinal discoveries have come not only from the
+            lab, but also from observing animals in the wild. Often our fellow
+            creatures have beat us to it.
+          </p>
+        </div>
+        <div class="exhibition-card exhibition-card-4">
+          <img src="images/windmill.jpg" alt="Windmills on top of a mountain" />
+          <h3>Ecology</h3>
+          <p>
+            As we learn more and more of the impact humans are having on the
+            planet, the more important it becomes that scientists explore how to
+            create a sustainable future not just for humans but for the whole
+            planet.
+          </p>
+          <p>
+            In our ecology section of the museum, we unpack the dangers we
+            currently face including global warming, extinction of species, and
+            pollution. But we also focus on the positive ways we can all
+            contribute to a brighter future.
+          </p>
+        </div>
+        <div class="exhibition-card exhibition-card-5">
+          <img
+            src="images/robot.jpg"
+            alt="Girl shaking hands with Rob the robot"
+          />
+          <h3>Robotics and AI</h3>
+          <p>
+            The information revolution is here and robotics and artificial
+            intelligence are the science of the future. From useful home
+            applications of AI to industrial uses of robotics, the future is
+            here. You can even say hello and shake the hand of Rob the Robot.
+          </p>
+        </div>
+      </section>
+      <a href="visit.html" class="cta">Visit us</a>
     </main>
     <footer>
-        <h4>Community Science Museum</h4>
-        &copy; Copyright 2021 by Community Science Museum
+      <h4>Community Science Museum</h4>
+      &copy; Copyright 2021 by Community Science Museum
     </footer>
-</body>
+  </body>
 </html>

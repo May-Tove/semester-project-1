@@ -1,6 +1,6 @@
 /* Exhibition cards */
 .exhibition-card {
-  width: 100%;
+  max-width: 300px;
   border-top-left-radius: 90px;
   border-bottom-right-radius: 90px;
 }

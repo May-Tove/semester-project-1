@@ -81,56 +81,50 @@ header {
 }
 
 /* Menu */
-.menu-wrap .toggler {
+#toggler {
+  display: none;
+}
+
+.toggler {
   cursor: pointer;
 }
 
-.toggler:checked ~ .main-menu {
-  display: block;
-}
-
-.menu-wrap .toggler:checked ~ .main-menu > div {
-  transform: scale(1);
-  transition-duration: 0.75s;
-}
-
-.menu-wrap .toggler:checked ~ .main-menu > div > nav {
-  opacity: 1;
-  transition: opacity 0.4s ease 0.4s;
-}
-
-.menu-wrap .main-menu {
+.main-menu {
   position: fixed;
   margin-top: 15px;
   left: 0;
   width: 100%;
-}
-
-.menu-wrap .main-menu > div {
+  height: 300px;
   background: #021428;
-  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: scale(0);
-  transition: all 0.4s ease;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
 }
 
-.menu-wrap .main-menu > div > nav {
+.main-menu > nav > ul > li {
   text-align: center;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-.menu-wrap .main-menu > div > nav > ul > li {
   list-style: none;
   font-size: 14px;
   padding: 15px;
 }
 
+/* Show menu */
+.toggler:checked ~ .main-menu {
+  transform: scale(1, 1);
+}
+
+.toggler:checked ~ .main-menu a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
 /* Header image */
 .header-hero {
-  background-image: url(../images/stars.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/stars.jpg);
   background-position: center;
   background-size: cover;
   min-height: 200px;
