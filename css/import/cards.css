@@ -13,12 +13,11 @@
 }
 
 .exhibition-card h3 {
-  text-align: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .exhibition-card p {
-  padding: 20px 25px 40px 25px;
+  padding: 0px 20px 30px 20px;
 }
 
 .exhibition-card-1 {

@@ -1,6 +1,11 @@
 .header-hero h1 {
-  text-align: center;
   padding-bottom: 30px;
+}
+
+h2,
+h3,
+p {
+  padding-bottom: 20px;
 }
 
 .get-involved {

@@ -22,7 +22,8 @@ h3 {
 h1 {
   font-style: italic;
   text-transform: uppercase;
-  padding-top: 110px;
+  text-align: center;
+  padding-top: 130px;
   color: #fff;
 }
 
@@ -122,6 +123,7 @@ header {
 }
 
 .menu-wrap .main-menu > div > nav > ul > li {
+  list-style: none;
   font-size: 14px;
   padding: 15px;
 }
@@ -131,6 +133,7 @@ header {
   background-image: url(../images/stars.jpg);
   background-position: center;
   background-size: cover;
+  min-height: 200px;
 }
 
 /* Footer */

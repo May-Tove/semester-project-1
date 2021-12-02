@@ -1,4 +1,14 @@
 /* Header */
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome p {
+  text-align: center;
+}
 
 .header-hero h1 {
   padding-left: 20px;
@@ -8,7 +18,6 @@
 .header-hero h2 {
   color: #fff;
   text-transform: capitalize;
-  text-align: left;
   padding: 10px 20px 0px 20px;
 }
 
@@ -18,7 +27,6 @@
 }
 
 /* Special Events */
-
 .events {
   margin-top: 50px;
   display: flex;
