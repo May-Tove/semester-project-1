@@ -11,8 +11,10 @@
 
 .header-hero p {
   color: #fff;
-  max-width: 300px;
+  max-width: 500px;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Special Events */

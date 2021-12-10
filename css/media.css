@@ -145,6 +145,8 @@
       "h2 h2 h2"
       "card card card"
       ". cta .";
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .events h2 {
@@ -154,6 +156,10 @@
   .events .cta {
     margin: 0 auto;
     grid-area: cta;
+  }
+
+  .event-card {
+    height: 500px;
   }
 
   /* Visit */
