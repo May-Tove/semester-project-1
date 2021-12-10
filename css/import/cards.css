@@ -1,23 +1,22 @@
 /* Exhibition cards */
 .exhibition-card {
-  max-width: 300px;
-  border-top-left-radius: 90px;
-  border-bottom-right-radius: 90px;
+  max-width: 350px;
+  height: fit-content;
+  padding-bottom: 40px;
+}
+
+.exhibition-card h3 {
+  padding-left: 20px;
+}
+
+.exhibition-card p {
+  padding: 0px 20px 20px 20px;
 }
 
 .exhibition-card img {
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
-  border-top-left-radius: 90px;
-}
-
-.exhibition-card h3 {
-  padding: 20px;
-}
-
-.exhibition-card p {
-  padding: 0px 20px 30px 20px;
 }
 
 .exhibition-card-1 {
@@ -62,25 +61,30 @@
 
 /* White cards */
 .white-card {
-  width: 100%;
+  max-width: 320px;
   height: fit-content;
   background-color: #fff;
+  padding-bottom: 40px;
   box-shadow: 5px 5px 20px #e4e4e4;
 }
 
 .white-card img {
-  width: 100%;
-  height: 150px;
+  min-width: 100%;
+  height: 200px;
   object-fit: cover;
 }
 
 .white-card h3 {
-  padding-top: 30px;
   padding-left: 20px;
-  padding-right: 20px;
 }
 
 .white-card p {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.white-card > ul {
+  list-style: none;
+  padding-left: 20px;
+  min-width: 320px;
 }

@@ -1,4 +1,93 @@
 @media (min-width: 768px) {
+  .logo img {
+    max-width: 120px;
+  }
+
+  /* Visit */
+  .explore img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .practical-info {
+    display: grid;
+    grid-template-areas:
+      "h2 h2"
+      "card card"
+      "card card"
+      "card card";
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .practical-info h2 {
+    grid-area: h2;
+  }
+
+  .practical-info .white-card {
+    height: 400px;
+    width: 320px;
+  }
+
+  /* Get Involved */
+  .involve-container {
+    display: grid;
+    align-items: center;
+    column-gap: 70px;
+    row-gap: 0px;
+    grid-template-areas:
+      "img h3"
+      "img text";
+  }
+
+  .involve-container img {
+    grid-area: img;
+    height: 400px;
+    width: 350px;
+  }
+
+  .involve-container h3 {
+    grid-area: h3;
+    padding: 0;
+  }
+
+  .involve-container-left {
+    display: grid;
+    align-items: center;
+    column-gap: 70px;
+    row-gap: 0;
+    grid-template-areas:
+      "h3 img"
+      "text img";
+  }
+
+  .involve-container-left img {
+    grid-area: img;
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+  }
+
+  .involve-container-left h3 {
+    grid-area: h3;
+  }
+
+  .get-involved p {
+    max-width: 450px;
+  }
+
+  .get-involved h3 {
+    font-size: 30px;
+  }
+
+  .get-involved .cta {
+    grid-area: cta;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Header */
   .toggler-lable {
     display: none;
   }
@@ -22,16 +111,195 @@
     display: block;
     height: 5px;
     border-radius: 5px;
-    background-image: linear-gradient(to bottom right, #f6ceec, #d939cd);
+    background-image: linear-gradient(to bottom right, #abdcff, #0396ff);
     position: absolute;
     top: 42px;
     left: 0;
     right: 0;
     transform: scale(0, 1);
-    transition: transform ease-in-out 250ms;
+    transition: transform ease-in-out 0.25s;
   }
 
   .main-menu a:hover::before {
     transform: scale(1, 1);
+  }
+
+  /* Search form */
+  .search-text {
+    width: 250px;
+  }
+
+  /* Styles */
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* Events */
+  .events {
+    display: grid;
+    grid-template-areas:
+      "h2 h2 h2"
+      "card card card"
+      ". cta .";
+  }
+
+  .events h2 {
+    grid-area: h2;
+  }
+
+  .events .cta {
+    margin: 0 auto;
+    grid-area: cta;
+  }
+
+  /* Visit */
+  .explore-container {
+    display: grid;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 0px;
+    grid-template-areas:
+      "img h3"
+      "img text"
+      "cta cta";
+  }
+
+  .explore-container h3 {
+    grid-area: h3;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+
+  .explore-container-2 {
+    display: grid;
+    align-items: center;
+    column-gap: 70px;
+    grid-template-areas:
+      "h3 img"
+      "text img"
+      "cta cta";
+  }
+
+  .explore-container-2 h3 {
+    grid-area: h3;
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  .explore img {
+    grid-area: img;
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .explore p {
+    max-width: 500px;
+  }
+
+  .explore .cta {
+    grid-area: cta;
+  }
+
+  .practical-info .white-card {
+    height: 400px;
+    min-width: 450px;
+  }
+
+  /* Exhibitions */
+  .exhibitions {
+    display: grid;
+    grid-template-areas:
+      "h2 h2"
+      "card1 card1"
+      "card2 card3"
+      "card4 card5"
+      "cta cta";
+  }
+
+  .exhibition-card-1 {
+    grid-area: card1;
+  }
+
+  .exhibition-card-2 {
+    grid-area: card2;
+  }
+
+  .exhibition-card-3 {
+    grid-area: card3;
+  }
+
+  .exhibition-card-4 {
+    grid-area: card4;
+  }
+
+  .exhibition-card-5 {
+    grid-area: card5;
+  }
+
+  .exhibitions h2 {
+    grid-area: h2;
+  }
+
+  .exhibitions .cta {
+    margin: 0 auto;
+    grid-area: cta;
+  }
+
+  .exhibition-card {
+    height: 550px;
+    min-width: 400px;
+  }
+
+  .exhibition-card-1 {
+    min-width: 830px;
+    height: 460px;
+    padding-bottom: 0;
+    column-gap: 25px;
+    display: grid;
+    align-items: center;
+    grid-template-areas:
+      "img h3"
+      "img text";
+  }
+
+  .exhibition-card-1 img {
+    grid-area: img;
+    height: 460px;
+    width: 400px;
+  }
+
+  .exhibition-card-1 h3 {
+    grid-area: h3;
+  }
+}
+
+@media (min-width: 1440px) {
+  .explore img {
+    width: 400px;
+  }
+
+  .practical-info {
+    display: grid;
+    grid-template-areas:
+      "h2 h2 h2"
+      "card card card"
+      "card card card";
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .practical-info h2 {
+    grid-area: h2;
+  }
+
+  .practical-info .white-card {
+    height: 430px;
+    min-width: 350px;
+      }
   }
 }
