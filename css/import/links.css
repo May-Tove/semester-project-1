@@ -18,14 +18,14 @@ a {
 
 .cta {
   padding: 13px 25px;
-  background-image: linear-gradient(to bottom right, #f6ceec, #d939cd);
+  background-image: linear-gradient(to bottom right, #abdcff, #0396ff);
   border-radius: 40px;
   margin-bottom: 40px;
   transition: all 0.3s ease 0s;
 }
 
 .cta:hover {
-  box-shadow: 0px 15px 20px rgba(217, 57, 205, 0.4);
+  box-shadow: 0px 15px 20px rgba(3, 150, 255, 0.4);
   transform: translateY(-7px);
 }
 
