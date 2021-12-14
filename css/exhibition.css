@@ -3,17 +3,6 @@
     url(../images/night-in-museum.jpg);
 }
 
-.exhibition-intro {
-  padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.exhibition-intro h2 {
-  text-transform: unset;
-  text-align: left;
-}
-
 .exhibitions {
   margin-top: 50px;
   display: flex;
@@ -21,8 +10,6 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 @media (min-width: 1024px) {

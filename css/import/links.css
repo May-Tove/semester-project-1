@@ -7,8 +7,13 @@ a {
   color: #fff;
 }
 
-.active {
-  color: #0396ff;
+.active::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, #abdcff, #0396ff);
 }
 
 .main-menu a {
@@ -18,7 +23,7 @@ a {
 
 .cta {
   padding: 13px 25px;
-  background-image: linear-gradient(to bottom right, #abdcff, #0396ff);
+  background-color: orange;
   border-radius: 40px;
   margin-bottom: 40px;
   transition: all 0.3s ease 0s;
@@ -31,4 +36,11 @@ a {
 
 .cta:active {
   transform: translateY(-1px);
+}
+
+@media (min-width: 1024px) {
+  .active::after {
+    position: absolute;
+    top: 43px;
+  }
 }

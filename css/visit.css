@@ -11,8 +11,6 @@
   justify-content: center;
   gap: 30px;
   margin-bottom: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .explore img {
@@ -24,39 +22,14 @@
 }
 
 @media (min-width: 768px) {
-  .explore,
-  .practical-info {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
   .explore img {
     height: 300px;
     object-fit: cover;
-  }
-
-  .practical-info {
-    display: grid;
-    grid-template-areas:
-      "h2 h2"
-      "card card"
-      "card card"
-      "card card";
-  }
-
-  .practical-info h2 {
-    grid-area: h2;
   }
 }
 
 @media (min-width: 1024px) {
   /* Visit */
-  .explore,
-  .practical-info {
-    margin-right: 5%;
-    margin-left: 5%;
-  }
-
   .content-container {
     display: grid;
     align-items: center;
@@ -93,6 +66,20 @@
 
   .explore .cta {
     grid-area: cta;
+  }
+
+  .practical-info {
+    display: grid;
+    grid-template-areas:
+      "h2 h2"
+      "card card"
+      "card card"
+      "card card"
+      "cta cta";
+  }
+
+  .practical-info h2 {
+    grid-area: h2;
   }
 }
 

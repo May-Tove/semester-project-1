@@ -9,8 +9,6 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  margin-right: 5%;
-  margin-left: 5%;
 }
 
 .get-involved img {
@@ -18,11 +16,6 @@
 }
 
 @media (min-width: 768px) {
-  .get-involved {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
   .get-involved img {
     height: 300px;
     object-fit: cover;
