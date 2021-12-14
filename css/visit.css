@@ -1,18 +1,6 @@
 .visit-welcome {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/at-museum.jpg);
-  background-size: cover;
-  background-position: top;
-  height: 350px;
-  margin-bottom: 40px;
-}
-
-.visit-welcome p {
-  color: #fff;
-  max-width: 600px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0px 25px 0px 25px;
 }
 
 .explore,
@@ -23,9 +11,6 @@
   justify-content: center;
   gap: 30px;
   margin-bottom: 30px;
-}
-
-.explore {
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -34,7 +19,134 @@
   width: 100%;
 }
 
+.explore p {
+  padding-bottom: 20px;
+}
+
+/* Card */
+
+.white-card {
+  max-width: 400px;
+  background-color: #fff;
+  padding-bottom: 40px;
+  box-shadow: 5px 5px 20px #e4e4e4;
+}
+
+.white-card img {
+  min-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.white-card h3 {
+  padding-left: 20px;
+}
+
+.white-card p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
 .googlemap {
   width: 100%;
   height: 200px;
+}
+
+@media (min-width: 768px) {
+  .explore,
+  .practical-info {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .explore img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .practical-info {
+    display: grid;
+    grid-template-areas:
+      "h2 h2"
+      "card card"
+      "card card"
+      "card card";
+  }
+
+  .practical-info h2 {
+    grid-area: h2;
+  }
+
+  .white-card {
+    height: 450px;
+    max-width: 460px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Visit */
+  .explore,
+  .practical-info {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .content-container {
+    display: grid;
+    align-items: center;
+    column-gap: 80px;
+    row-gap: 60px;
+    grid-template-areas:
+      "img text"
+      "cta cta";
+  }
+
+  .content-container-2 {
+    display: grid;
+    align-items: center;
+    column-gap: 80px;
+    row-gap: 30px;
+    grid-template-areas:
+      "text img"
+      "cta cta";
+  }
+
+  .left-side-img {
+    grid-area: img;
+  }
+
+  .explore img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .explore p {
+    max-width: 400px;
+  }
+
+  .explore .cta {
+    grid-area: cta;
+  }
+}
+
+@media (min-width: 1440px) {
+  .practical-info {
+    display: grid;
+    grid-template-areas:
+      "h2 h2 h2"
+      "card card card"
+      "card card card";
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .practical-info h2 {
+    grid-area: h2;
+  }
+
+  .practical-info .white-card {
+    height: 430px;
+  }
 }

@@ -1,18 +1,6 @@
 .exhibition-welcome {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/night-in-museum.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 350px;
-  margin-bottom: 40px;
-}
-
-.exhibition-welcome p {
-  color: #fff;
-  max-width: 600px;
-  padding: 0px 25px 0px 25px;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .exhibition-intro {

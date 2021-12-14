@@ -2,88 +2,6 @@
   .logo img {
     max-width: 120px;
   }
-
-  /* Visit */
-  .explore img {
-    height: 200px;
-    object-fit: cover;
-  }
-
-  .practical-info {
-    display: grid;
-    grid-template-areas:
-      "h2 h2"
-      "card card"
-      "card card"
-      "card card";
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .practical-info h2 {
-    grid-area: h2;
-  }
-
-  .practical-info .white-card {
-    height: 400px;
-    width: 320px;
-  }
-
-  /* Get Involved */
-  .involve-container {
-    display: grid;
-    align-items: center;
-    column-gap: 70px;
-    row-gap: 0px;
-    grid-template-areas:
-      "img h3"
-      "img text";
-  }
-
-  .involve-container img {
-    grid-area: img;
-    height: 400px;
-    width: 350px;
-  }
-
-  .involve-container h3 {
-    grid-area: h3;
-    padding: 0;
-  }
-
-  .involve-container-left {
-    display: grid;
-    align-items: center;
-    column-gap: 70px;
-    row-gap: 0;
-    grid-template-areas:
-      "h3 img"
-      "text img";
-  }
-
-  .involve-container-left img {
-    grid-area: img;
-    height: 400px;
-    width: 350px;
-    object-fit: cover;
-  }
-
-  .involve-container-left h3 {
-    grid-area: h3;
-  }
-
-  .get-involved p {
-    max-width: 450px;
-  }
-
-  .get-involved h3 {
-    font-size: 30px;
-  }
-
-  .get-involved .cta {
-    grid-area: cta;
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -134,8 +52,36 @@
     font-size: 50px;
   }
 
+  h2 {
+    font-size: 30px;
+    padding: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
   p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  /* Home page */
+  .home-welcome {
+    height: 700px;
+  }
+
+  .home-welcome h1 {
+    max-width: 700px;
+    line-height: 50px;
+    padding-top: 210px;
+  }
+
+  .styled-p {
+    font-size: 24px;
+  }
+
+  .home-welcome p {
+    max-width: 450px;
   }
 
   /* Events */
@@ -145,8 +91,6 @@
       "h2 h2 h2"
       "card card card"
       ". cta .";
-    margin-left: 10%;
-    margin-right: 10%;
   }
 
   .events h2 {
@@ -160,60 +104,6 @@
 
   .event-card {
     height: 500px;
-  }
-
-  /* Visit */
-  .explore-container {
-    display: grid;
-    align-items: center;
-    column-gap: 50px;
-    row-gap: 0px;
-    grid-template-areas:
-      "img h3"
-      "img text"
-      "cta cta";
-  }
-
-  .explore-container h3 {
-    grid-area: h3;
-    padding-top: 20px;
-    font-size: 30px;
-  }
-
-  .explore-container-2 {
-    display: grid;
-    align-items: center;
-    column-gap: 70px;
-    grid-template-areas:
-      "h3 img"
-      "text img"
-      "cta cta";
-  }
-
-  .explore-container-2 h3 {
-    grid-area: h3;
-    font-size: 30px;
-    padding-top: 20px;
-  }
-
-  .explore img {
-    grid-area: img;
-    height: 500px;
-    width: 400px;
-    object-fit: cover;
-  }
-
-  .explore p {
-    max-width: 500px;
-  }
-
-  .explore .cta {
-    grid-area: cta;
-  }
-
-  .practical-info .white-card {
-    height: 400px;
-    min-width: 450px;
   }
 
   /* Exhibitions */
@@ -281,30 +171,5 @@
 
   .exhibition-card-1 h3 {
     grid-area: h3;
-  }
-}
-
-@media (min-width: 1440px) {
-  .explore img {
-    width: 400px;
-  }
-
-  .practical-info {
-    display: grid;
-    grid-template-areas:
-      "h2 h2 h2"
-      "card card card"
-      "card card card";
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .practical-info h2 {
-    grid-area: h2;
-  }
-
-  .practical-info .white-card {
-    height: 430px;
-    min-width: 350px;
   }
 }
