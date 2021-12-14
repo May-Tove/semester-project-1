@@ -1,87 +1,42 @@
-/* Event card */
-.event-card {
+.card {
   max-width: 350px;
   padding-bottom: 40px;
-  background: #e9f3f9;
-  border-radius: 20px;
+  background: #fff;
 }
 
-.event-card h3 {
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
   padding-left: 20px;
   padding-right: 20px;
-  color: #1f7b8f;
-  font-size: 25px;
 }
 
-.event-card p {
+.card p {
   padding: 0px 20px 20px 20px;
 }
 
-.event-card img {
+.googlemap {
   width: 100%;
   height: 200px;
-  object-fit: cover;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
-/* Exhibition cards */
-.exhibition-card {
-  max-width: 350px;
-  height: fit-content;
-  padding-bottom: 40px;
+@media (min-width: 768px) {
+  .visit-card {
+    height: 30rem;
+    min-width: 300px;
+  }
 }
 
-.exhibition-card h3 {
-  padding-left: 20px;
+@media (min-width: 1024px) {
+  .exhibition-card {
+    height: 550px;
+    min-width: 400px;
+  }
 }
 
-.exhibition-card p {
-  padding: 0px 20px 20px 20px;
-}
-
-.exhibition-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.exhibition-card-1 {
-  background-color: #e9f3f9;
-}
-
-.exhibition-card-1 h3 {
-  color: #1f7b8f;
-}
-
-.exhibition-card-2 {
-  background-color: #fef0ed;
-}
-
-.exhibition-card-2 h3 {
-  color: #e9652e;
-}
-
-.exhibition-card-3 {
-  background-color: #ffe8f2;
-}
-
-.exhibition-card-3 h3 {
-  color: #cf3880;
-}
-
-.exhibition-card-4 {
-  background-color: #fff0e0;
-}
-
-.exhibition-card-4 h3 {
-  color: #cc7a22;
-}
-
-.exhibition-card-5 {
-  background-color: #e9e6fd;
-}
-
-.exhibition-card-5 h3 {
-  color: #5147b5;
+@media (min-width: 1440px) {
 }

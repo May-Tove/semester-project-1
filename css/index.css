@@ -38,3 +38,45 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
+@media (min-width: 1024px) {
+  .home-welcome {
+    height: 700px;
+  }
+
+  .home-welcome h1 {
+    max-width: 700px;
+    line-height: 50px;
+    padding-top: 210px;
+  }
+
+  .styled-p {
+    font-size: 24px;
+  }
+
+  .home-welcome p {
+    max-width: 450px;
+  }
+
+  /* Events */
+  .events {
+    display: grid;
+    grid-template-areas:
+      "h2 h2 h2"
+      "card card card"
+      ". cta .";
+  }
+
+  .events h2 {
+    grid-area: h2;
+  }
+
+  .events .cta {
+    margin: 0 auto;
+    grid-area: cta;
+  }
+
+  .event-card {
+    height: 500px;
+  }
+}
