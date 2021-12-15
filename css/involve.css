@@ -13,6 +13,8 @@
 
 .get-involved img {
   width: 100%;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
 }
 
 @media (min-width: 768px) {

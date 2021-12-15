@@ -13,8 +13,14 @@
   margin-bottom: 30px;
 }
 
+.practical-info {
+  margin-top: 50px;
+}
+
 .explore img {
   width: 100%;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
 }
 
 .explore p {

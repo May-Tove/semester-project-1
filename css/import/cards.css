@@ -3,23 +3,24 @@
   max-width: 350px;
   padding-bottom: 40px;
   background: #fff;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
 }
 
 .card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  border-top-left-radius: 90px;
 }
 
 .card h3 {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .card p {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 20px;
+  padding: 0px 30px 20px 30px;
 }
 
 .googlemap {
@@ -31,9 +32,13 @@
 }
 
 @media (min-width: 1024px) {
+  .card {
+    padding-bottom: unset;
+  }
+
   .exhibition-card {
-    height: 550px;
-    min-width: 400px;
+    height: 35rem;
+    max-width: 400px;
   }
 
   .visit-card {
@@ -43,7 +48,7 @@
 }
 
 @media (min-width: 1440px) {
-  .practical-info .visit-card {
-    height: 430px;
+  .visit-card {
+    min-width: 200px;
   }
 }

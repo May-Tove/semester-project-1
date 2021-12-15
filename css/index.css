@@ -11,15 +11,15 @@
 .home-welcome h1 {
   text-align: left;
   max-width: 300px;
-  line-height: 30px;
+  line-height: 27px;
   padding-top: 140px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .styled-p {
-  font-family: "Mulish";
-  font-weight: bold;
-  font-size: 18px;
+  font-family: "Mulish", Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
 }
 
 .home-welcome p {
@@ -44,29 +44,35 @@
 
   .home-welcome h1 {
     max-width: 700px;
-    line-height: 50px;
     padding-top: 210px;
+    line-height: 0.9em;
+    padding-bottom: 20px;
   }
 
   .styled-p {
-    font-size: 24px;
+    font-size: 2em;
   }
 
   .home-welcome p {
-    max-width: 450px;
+    max-width: 430px;
   }
 
   /* Events */
   .events {
     display: grid;
     grid-template-areas:
-      "h2 h2 h2"
-      "card card card"
-      ". cta .";
+      "h2 h2"
+      "card1 card1"
+      "card card"
+      "cta cta";
   }
 
   .events h2 {
     grid-area: h2;
+  }
+
+  .event-card-1 {
+    grid-area: card1;
   }
 
   .events .cta {
@@ -75,6 +81,19 @@
   }
 
   .event-card {
-    height: 500px;
+    height: 520px;
+  }
+
+  .event-card-1 {
+    display: grid;
+    grid-template-areas: "img text";
+    min-width: 100%;
+    max-height: 240px;
+    gap: 20px;
+  }
+
+  .event-card-1 img {
+    height: 240px;
+    width: 350px;
   }
 }

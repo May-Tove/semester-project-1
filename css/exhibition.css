@@ -55,23 +55,18 @@
 
   .exhibition-card-1 {
     min-width: 830px;
-    height: 460px;
+    height: 27rem;
     padding-bottom: 0;
     column-gap: 25px;
     display: grid;
     align-items: center;
-    grid-template-areas:
-      "img h3"
-      "img text";
+    grid-template-areas: "img text";
   }
 
   .exhibition-card-1 img {
     grid-area: img;
-    height: 460px;
+    height: 27rem;
     width: 400px;
-  }
-
-  .exhibition-card-1 h3 {
-    grid-area: h3;
+    object-fit: cover;
   }
 }
