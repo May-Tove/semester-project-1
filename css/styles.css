@@ -24,11 +24,6 @@ body {
   margin-right: 10%;
 }
 
-.explore img {
-  border-top-left-radius: 90px;
-  border-bottom-right-radius: 90px;
-}
-
 h1,
 h2,
 h3 {
@@ -69,6 +64,7 @@ header {
   width: 100%;
   background-color: var(--header-footer-color);
   z-index: 1000;
+  overflow: hidden;
 }
 
 .logo img {
