@@ -1,3 +1,9 @@
+.contact-welcome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/robot-header.jpg);
+  background-position: center;
+}
+
 .contact-form h2 {
   text-align: left;
   padding-bottom: 15px;
