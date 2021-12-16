@@ -73,26 +73,38 @@ header {
 .search-box {
   display: flex;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 50px;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+.search-box label {
+  display: none;
+}
+
 .search-button img {
   max-width: 18px;
+  padding-right: 10px;
 }
 
 .search-button {
   display: flex;
+  border: none;
+  background: none;
 }
 
 .search-text {
   border: none;
   background: none;
   outline: none;
-  color: white;
   font-size: 13px;
   width: 150px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
 }
 
 /* Menu */

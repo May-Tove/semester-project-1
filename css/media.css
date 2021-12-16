@@ -14,8 +14,9 @@
   }
 
   .welcome p {
-    margin-left: 20%;
-    margin-right: 20%;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
 
@@ -61,29 +62,6 @@
   .main-menu > nav > ul {
     display: flex;
     align-items: center;
-  }
-
-  .main-menu a {
-    opacity: 1;
-    position: relative;
-  }
-
-  .main-menu a::before {
-    content: "";
-    display: block;
-    height: 5px;
-    border-radius: 5px;
-    background-image: linear-gradient(to bottom right, #ffcf1b, #ff881b);
-    position: absolute;
-    top: 43px;
-    left: 0;
-    right: 0;
-    transform: scale(0, 1);
-    transition: transform ease-in-out 0.25s;
-  }
-
-  .main-menu a:hover::before {
-    transform: scale(1, 1);
   }
 
   /* Search form */
