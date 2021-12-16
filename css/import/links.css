@@ -11,24 +11,16 @@ a {
 .active::after {
   content: "";
   display: block;
-  margin: 0 auto;
   height: 5px;
   width: 100%;
   border-radius: 5px;
-  background-image: linear-gradient(to bottom right, #ffcf1b, #ff881b);
-}
-
-/* Showing menu */
-.main-menu a {
-  opacity: 0;
-  transition: opacity ease-in-out;
-  transition-duration: 0.15s;
+  background-image: var(--orange-gradient);
 }
 
 /* Buttons */
 .cta {
   padding: 12px 25px;
-  background-image: linear-gradient(to bottom right, #ffcf1b, #ff881b);
+  background-image: var(--orange-gradient);
   border-radius: 40px;
   color: var(--white-text-color);
   transition: all ease;
@@ -46,30 +38,23 @@ a {
 }
 
 @media (min-width: 1024px) {
-  .active::after {
+  .active::after,
+  .main-menu a::before {
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    top: 43px;
+    top: 44px;
   }
 
-  .main-menu a {
-    opacity: 1;
-    position: relative;
-  }
-
+  /* Hover animation on main menu links */
   .main-menu a::before {
     content: "";
     display: block;
-    height: 5px;
-    border-radius: 5px;
-    background-image: linear-gradient(to bottom right, #ffcf1b, #ff881b);
-    position: absolute;
-    top: 43px;
     left: 0;
     right: 0;
+    height: 5px;
+    border-radius: 5px;
+    background-image: var(--orange-gradient);
     transform: scale(0, 1);
-    transition: transform ease-in-out;
+    transition: ease-in-out;
     transition-duration: 0.25s;
   }
 

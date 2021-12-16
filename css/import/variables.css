@@ -2,4 +2,5 @@
   --header-footer-color: rgba(28, 28, 28);
   --sub-header-color: #5147b5;
   --white-text-color: #fff;
+  --orange-gradient: linear-gradient(to bottom right, #ffcf1b, #ff881b);
 }

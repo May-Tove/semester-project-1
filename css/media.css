@@ -64,6 +64,11 @@
     align-items: center;
   }
 
+  .main-menu a {
+    opacity: 1;
+    position: relative;
+  }
+
   /* Search form */
   .search-text {
     width: 230px;

@@ -127,7 +127,7 @@ header {
   justify-content: center;
   transform: scale(1, 0);
   transform-origin: top;
-  transition: transform ease-in-out;
+  transition: ease-in-out;
   transition-duration: 0.4s;
 }
 
@@ -144,9 +144,15 @@ header {
 
 .hamburger-menu:checked ~ .main-menu a {
   opacity: 1;
-  transition: opacity ease-in-out;
+  transition: ease-in-out;
   transition-duration: 0.25s;
   transition-delay: 0.25s;
+}
+
+.main-menu a {
+  opacity: 0;
+  transition: ease-in-out;
+  transition-duration: 0.15s;
 }
 
 /* Header images */
