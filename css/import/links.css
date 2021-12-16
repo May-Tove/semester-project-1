@@ -48,8 +48,9 @@ a {
 @media (min-width: 1024px) {
   .active::after {
     position: absolute;
+    justify-content: center;
+    align-items: center;
     top: 43px;
-    margin: 0 auto;
   }
 
   .main-menu a {
