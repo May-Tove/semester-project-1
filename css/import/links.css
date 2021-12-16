@@ -4,9 +4,10 @@ a {
   font-family: "Mulish", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 13px;
-  color: #fff;
+  color: var(--white-text-color);
 }
 
+/* Active state */
 .active::after {
   content: "";
   display: block;
@@ -17,17 +18,22 @@ a {
   background-image: linear-gradient(to bottom right, #ffcf1b, #ff881b);
 }
 
+/* Showing menu */
 .main-menu a {
   opacity: 0;
-  transition: opacity 150ms ease-in-out;
+  transition: opacity ease-in-out;
+  transition-duration: 0.15s;
 }
 
+/* Buttons */
 .cta {
   padding: 12px 25px;
   background-image: linear-gradient(to bottom right, #ffcf1b, #ff881b);
   border-radius: 40px;
-  color: #fff;
-  transition: all 0.3s ease 0s;
+  color: var(--white-text-color);
+  transition: all ease;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
 }
 
 .cta:hover {
@@ -43,6 +49,7 @@ a {
   .active::after {
     position: absolute;
     top: 43px;
+    margin: 0 auto;
   }
 
   .main-menu a {
@@ -61,7 +68,8 @@ a {
     left: 0;
     right: 0;
     transform: scale(0, 1);
-    transition: transform ease-in-out 0.25s;
+    transition: transform ease-in-out;
+    transition-duration: 0.25s;
   }
 
   .main-menu a:hover::before {

@@ -3,24 +3,24 @@
     url(../images/about-us.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
   margin-bottom: 40px;
   padding-left: 10%;
   padding-bottom: 40px;
 }
 
-.involve-welcome h1 {
+.involve-welcome h1,
+.involve-welcome p {
   text-align: left;
 }
 
 .involve-welcome p {
-  text-align: left;
   max-width: 400px;
-  color: #fff;
+  color: var(--white-text-color);
   padding-bottom: 20px;
   padding-right: 10%;
 }
 
+/* Get involved */
 .get-involved {
   display: flex;
   flex-direction: column;
@@ -37,25 +37,25 @@
   border-bottom-right-radius: 90px;
 }
 
-.get-involved h3 {
-  margin-left: 10%;
+.get-involved h3,
+.get-involved p {
+  margin: 0px 10% 0px 10%;
 }
 
 .get-involved p {
   padding-bottom: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 @media (min-width: 768px) {
+  .involve-welcome {
+    padding-left: 20%;
+  }
+
   .get-involved img {
     height: 400px;
   }
 
-  .get-involved h3 {
-    margin: unset;
-  }
-
+  .get-involved h3,
   .get-involved p {
     margin: unset;
   }
@@ -63,29 +63,25 @@
 
 @media (min-width: 1024px) {
   .involve-welcome {
-    padding-left: 5%;
+    padding-left: 7%;
   }
 
-  .get-involved {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .content-container {
+  /* Get involved */
+  .content-container,
+  .content-container-2 {
     display: grid;
     align-items: center;
     column-gap: 80px;
     row-gap: 60px;
+  }
+
+  .content-container {
     grid-template-areas:
       "img text"
       "cta cta";
   }
 
   .content-container-2 {
-    display: grid;
-    align-items: center;
-    column-gap: 80px;
-    row-gap: 30px;
     grid-template-areas:
       "text img"
       "cta cta";
@@ -98,7 +94,6 @@
   .get-involved img {
     height: 500px;
     width: 450px;
-    object-fit: cover;
   }
 
   .get-involved p {
