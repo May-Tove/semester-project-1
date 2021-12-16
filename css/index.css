@@ -28,7 +28,7 @@
   padding-bottom: 30px;
 }
 
-/* Special Events */
+/* Events */
 .events {
   display: flex;
   flex-direction: column;
@@ -58,42 +58,19 @@
   }
 
   /* Events */
-  .events {
+.events{
     display: grid;
-    grid-template-areas:
-      "h2 h2"
-      "card1 card1"
-      "card card"
-      "cta cta";
-  }
+    grid-template-areas: 
+    "h2 h2 h2"
+    "card card card"
+    "cta cta cta";
+}
 
-  .events h2 {
+.events h2{
     grid-area: h2;
-  }
+}
 
-  .event-card-1 {
-    grid-area: card1;
-  }
-
-  .events .cta {
-    margin: 0 auto;
+.events .cta{
     grid-area: cta;
-  }
-
-  .event-card {
-    height: 520px;
-  }
-
-  .event-card-1 {
-    display: grid;
-    grid-template-areas: "img text";
-    min-width: 100%;
-    max-height: 240px;
-    gap: 20px;
-  }
-
-  .event-card-1 img {
-    height: 240px;
-    width: 350px;
-  }
+    margin: 0 auto;
 }

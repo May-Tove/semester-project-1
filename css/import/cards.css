@@ -36,6 +36,11 @@
     padding-bottom: unset;
   }
 
+  .event-card {
+    height: 35rem;
+    min-width: 300px;
+  }
+
   .exhibition-card {
     height: 35rem;
     max-width: 400px;
@@ -48,6 +53,10 @@
 }
 
 @media (min-width: 1440px) {
+  .event-card {
+    height: 32rem;
+  }
+
   .visit-card {
     min-width: 200px;
   }
