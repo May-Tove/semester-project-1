@@ -9,11 +9,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .practical-info {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .explore img {
@@ -67,10 +67,6 @@
 
   .left-side-img {
     grid-area: img;
-  }
-
-  .explore {
-    row-gap: 60px;
   }
 
   .explore img {
