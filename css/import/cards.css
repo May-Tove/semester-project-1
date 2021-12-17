@@ -29,6 +29,14 @@
   border: 0;
 }
 
+address {
+  margin-left: 30px;
+}
+
+.opening-hours p {
+  text-align: center;
+}
+
 @media (min-width: 1024px) {
   .card {
     padding-bottom: unset;
