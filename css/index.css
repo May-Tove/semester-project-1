@@ -71,3 +71,9 @@
     grid-area: cta;
     margin: 0 auto;
 }
+
+@media (min-width: 1700px){
+  .home-welcome{
+    padding-left: 20%;
+  }
+}

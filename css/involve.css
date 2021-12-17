@@ -110,3 +110,9 @@
     padding-left: 20%;
   }
 }
+
+@media (min-width: 1700px) {
+  .involve-welcome {
+    padding-left: 30%;
+  }
+}

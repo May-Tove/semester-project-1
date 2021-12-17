@@ -74,3 +74,13 @@
     width: 230px;
   }
 }
+
+@media (min-width: 2500px) {
+  .welcome {
+    height: 500px;
+  }
+
+  .welcome h1 {
+    padding-top: 240px;
+  }
+}
