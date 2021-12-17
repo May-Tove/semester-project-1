@@ -22,14 +22,14 @@ a {
   padding: 12px 25px;
   background-image: var(--orange-gradient);
   border-radius: 40px;
-  color: var(--white-text-color);
+  color: #000;
   transition: all ease;
   transition-duration: 0.3s;
   transition-delay: 0s;
 }
 
 .cta:hover {
-  box-shadow: 0px 15px 20px rgba(255, 136, 27, 0.4);
+  box-shadow: 0px 15px 20px rgba(248, 216, 0, 0.4);
   transform: translateY(-5px);
 }
 

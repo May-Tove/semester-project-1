@@ -9,11 +9,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 .practical-info {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .explore img {
@@ -28,7 +28,8 @@
   margin-left: 10%;
 }
 
-.explore p {
+.explore p,
+.explore .cta {
   margin: 0px 10% 20px 10%;
 }
 
@@ -38,8 +39,13 @@
     height: 400px;
   }
   .explore h3,
-  .explore p {
+  .explore p,
+  .explore .cta {
     margin: unset;
+  }
+
+  .explore p {
+    padding-bottom: 20px;
   }
 }
 
@@ -50,22 +56,21 @@
     display: grid;
     align-items: center;
     column-gap: 80px;
-    row-gap: 60px;
   }
   .content-container {
-    grid-template-areas:
-      "img text"
-      "cta cta";
+    grid-template-areas: "img text";
   }
 
   .content-container-2 {
-    grid-template-areas:
-      "text img"
-      "cta cta";
+    grid-template-areas: "text img";
   }
 
   .left-side-img {
     grid-area: img;
+  }
+
+  .explore {
+    row-gap: 60px;
   }
 
   .explore img {
@@ -75,10 +80,6 @@
 
   .explore p {
     max-width: 450px;
-  }
-
-  .explore .cta {
-    grid-area: cta;
   }
 
   /* Plan your visit */
