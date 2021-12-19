@@ -26,15 +26,10 @@
     justify-content: center;
     column-gap: 100px;
     padding-top: 50px;
+    text-align: left;
     grid-template-areas:
       "links hours location"
       "copyright copyright copyright";
-  }
-
-  .quick-links,
-  .opening-hours,
-  .location {
-    text-align: left;
   }
 
   .quick-links {
@@ -48,8 +43,10 @@
   .location {
     grid-area: location;
   }
+
   .copyright {
     grid-area: copyright;
+    margin: 0 auto;
   }
 }
 
