@@ -18,6 +18,39 @@
     max-width: 600px;
     margin: 0 auto;
   }
+
+  /* Footer */
+  footer {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 50px;
+    grid-template-areas:
+      "links hours location"
+      "copyright copyright copyright";
+  }
+
+  .quick-links,
+  .opening-hours,
+  .location {
+    text-align: left;
+  }
+
+  .quick-links {
+    grid-area: links;
+  }
+
+  .opening-hours {
+    grid-area: hours;
+  }
+
+  .location {
+    grid-area: location;
+  }
+  .copyright {
+    grid-area: copyright;
+  }
 }
 
 @media (min-width: 1024px) {
