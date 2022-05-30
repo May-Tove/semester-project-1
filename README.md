@@ -30,8 +30,4 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-[My LinkedIn page](www.linkedin.com)
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My LinkedIn page](www.linkedin.com/in/may-tove-hovdal-24b406153)
