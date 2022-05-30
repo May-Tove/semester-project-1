@@ -54,6 +54,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
+<a href"www.linkedin.com/in/may-tove-hovdal-24b406153">S</a>
 [My LinkedIn page](www.linkedin.com/in/may-tove-hovdal-24b406153)
 
 ## License
