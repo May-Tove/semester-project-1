@@ -21,8 +21,8 @@ The projects included the following tasks:
 
 ## Built With
 
-- [HTML](https://reactjs.org/)
-- [CSS](https://getbootstrap.com)
+- HTML
+- CSS
 
 ## Contributing
 
