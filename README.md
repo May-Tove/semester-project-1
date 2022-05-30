@@ -6,14 +6,18 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+The goal for this project was to design and develop a website for a fictitious interactive science museum called the Community Science Museum. Its core target audience is primary and middle school children (7-15) and families with young children. The website should be informative, appealing and engaging, but should encourage viewers to visit the museum itself. The website should be responsive and be easy to use on a variety of devices.
 
 
-You can add some bullet points if you'd like to:
+The projects included the following tasks:
 
-- List item 1
-- List item 2
-- List item 3
+- Project panning
+- Investigate and understand the target audience
+- Create low fidelity wireframes
+- Create a high fidelity prototype with colors, fonts and layout
+- Develop a responsive website using HTML and pure CSS, no framworks
+- Testing of the site
+- Documentation of the process
 
 ## Built With
 
