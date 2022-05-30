@@ -6,7 +6,9 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-The goal for this project was to design and develop a website for a fictitious interactive science museum called the Community Science Museum. Its core target audience is primary and middle school children (7-15) and families with young children. The website should be informative, appealing and engaging, but should encourage viewers to visit the museum itself. The website should be responsive and be easy to use on a variety of devices.
+The project gathered all i have learnt during the first semester on Noroff Front End Development studies.
+
+The goal for this assignment was to design and develop a website for a fictitious interactive science museum called the Community Science Museum. Its core target audience is primary and middle school children (7-15) and families with young children. The website should be informative, appealing and engaging, but should encourage viewers to visit the museum itself. The website should be responsive and be easy to use on a variety of devices.
 
 
 The projects included the following tasks:
