@@ -17,8 +17,6 @@ You can add some bullet points if you'd like to:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [HTML](https://reactjs.org/)
 - [CSS](https://getbootstrap.com)
 
@@ -56,11 +54,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page]([www.linkedin.com](https://www.linkedin.com/in/may-tove-hovdal-24b406153/?originalSubdomain=no))
 
 ## License
 
