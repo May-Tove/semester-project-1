@@ -31,4 +31,4 @@ The project included the following tasks:
 
 ## Link to website
 
-(zen-thompson-8d07a8.netlify.app)
+https://zen-thompson-8d07a8.netlify.app/
