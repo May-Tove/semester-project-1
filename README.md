@@ -28,3 +28,7 @@ The project included the following tasks:
 
 - [My LinkedIn page](www.linkedin.com/in/may-tove-hovdal-24b406153)
 - maytoveh@gmail.com
+
+## Link to website
+
+zen-thompson-8d07a8.netlify.app
