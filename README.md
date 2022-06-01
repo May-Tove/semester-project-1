@@ -11,11 +11,11 @@ The goal for this assignment was to design and develop a website for a fictitiou
 
 The project included the following tasks:
 
-- Project panning
+- Project planning
 - Investigate and understand the target audience
 - Create low fidelity wireframes
 - Create a high fidelity prototype with colors, fonts and layout
-- Develop a responsive website using HTML and pure CSS, no framworks
+- Develop a responsive website using HTML and pure CSS, no frameworks
 - Testing of the site (WCAG guidelines and SEO)
 - Documentation of the process
 
