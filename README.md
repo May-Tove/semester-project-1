@@ -1,6 +1,7 @@
 # Community Science Museum | Semester Project 1
 
-<img width="1440" alt="Community Science Museum landingpage" src="https://user-images.githubusercontent.com/89157761/170948078-98f6253c-df26-41fa-aa08-da2ede2de89a.png">
+<img width="720" alt="Skjermbilde 2022-06-01 kl  16 29 35" src="https://user-images.githubusercontent.com/89157761/171429115-a717c7ed-989d-4a3c-a0a3-87d407fba2c6.png">
+
 
 ## Description
 
