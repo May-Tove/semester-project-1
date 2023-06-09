@@ -2,6 +2,9 @@
 
 <img width="720" alt="Skjermbilde 2022-06-01 kl  16 29 35" src="https://user-images.githubusercontent.com/89157761/171429115-a717c7ed-989d-4a3c-a0a3-87d407fba2c6.png">
 
+### Hosted on Netlify
+
+[Live site](https://sience-museum.netlify.app/)
 
 ## Description
 
@@ -29,7 +32,3 @@ The project included the following tasks:
 
 - [Linkedin](https://www.linkedin.com/in/may-tove-hovdal-24b406153/)
 - maytoveh@gmail.com
-
-## Link to website
-
-https://zen-thompson-8d07a8.netlify.app/
